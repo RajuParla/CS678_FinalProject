@@ -133,6 +133,7 @@ Use these functions to streamline data preprocessing and accuracy assessment in 
 
 ## Helper file 2
 
-This file encompasses various data processing tasks for the datasets. It employs the Google Translate API to automatically translate a specified percentage of sentences within the dataset into multiple target languages, including French, Spanish, German, Japanese, and Chinese. 
-Additionally, the code includes functionalities to split the dataset into distinct training and testing sets, preserving them as separate files. Another feature involves the removal of emojis from the text in training datasets. 
-Furthermore, the project facilitates the conversion of a designated folder into a zip file, streamlining data organization. Lastly, it offers a utility for converting CSV files within a specified folder to the TSV format, enhancing compatibility and standardization across datasets.
+This file encompasses various data processing tasks for the datasets. It employs the Google Translate API to automatically translate a specified percentage of sentences within the dataset into multiple target languages, including French, Spanish, German, Japanese, and Chinese. (Used for data augmentation)
+Additionally, the code includes functionalities to split the dataset into distinct training and testing sets, preserving them as separate files. (Used for huge datasets)
+Another feature involves the removal of emojis, urls from the text in the datasets. 
+Furthermore, the project facilitates the conversion of a designated folder into a zip file, streamlining data organization. Lastly, it offers a utility for converting CSV files within a specified folder to the TSV format, enhancing compatibility and standardization across datasets. (The train, test files should be in tsv format only. Furthermore, the train, test files should have the corresponding folder names at the start)
